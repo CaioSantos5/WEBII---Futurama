@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Futurama</title>
+
+  <!-- fcss do Projeto -->
+  <link rel="stylesheet" href="lista.css">
+
+  <!-- Javascript do projeto -->
+  <script src="lista.js" defer>
+
+  </script>
+
+  <!-- font-awesom -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  
+  <form id="lista-form">
+    
+    <div class="lista-container">
+      <header>
+      <img src="Futurama_1999_logo.svg" alt="">
+    </header>
+      <p>Escolha seu episódio favorito de Futurama</p><br>
+
+      <label>Temporada</label><br>
+      <select id="estado" name="estado" onchange="">
+        <option value="">Temporada</option>
+        <option value="T1">T1</option>
+        <option value="T2">T2</option>
+        <option value="T3">T3</option>
+      </select>
+      <br>
+
+      <br>
+      <label>episódio</label><br>
+      <select id="cidade" name="cidade"></select>
+      <br>
+      <br>
+      <p>Titulo do episodio</p>
+      <div class="form-control">
+        <input type="text" id="lista-input" placeholder="Digite aqui!" />
+        <button type="submit">
+          <i class="fa-solid fa-paper-plane"></i>
+        </button>
+      </div>
+  </form>
+
+  <div id="lista-list">
+
+    <!--<div class="lista">
+        <h3>Os elemendos ficaram aqui.. </h3>
+        <button class="edit-lista">
+          <i class="fa-solid fa-pen"></i>
+        </button>
+        <button class="remove-lista">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>-->
+
+
+  </div>
+
+  </div>
+  
+
+</body>
+
+</html>
